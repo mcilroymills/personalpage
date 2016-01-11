@@ -1,0 +1,58 @@
+* {
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+#title {
+  font-size: 60px;
+  font: arial;
+}
+
+figure {
+  text-align: center;
+}
+h1 {
+  text-align: center;
+}
+h2 {
+  font-size: 32px;
+}
+section li {
+  font-size: 30px;
+  list-style-type: square;
+}
+nav {
+  text-align: center;
+}
+nav li {
+  list-style-type: none;
+  display: inline;
+  margin-right: 20px;
+}
+
+a {
+  font-size: 30px;
+}
+
+a {
+  color: blue;
+  -o-transition: .5s;
+  -ms-transition: .5s;
+  -moz-transition: .5s;
+  -webkit-transition: .5s;
+  transition: .20s;
+}
+a:hover {  
+  color: red;
+}
+
+html { 
+  background: url(../media/snow.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.muppets {
+  text-align: center
+}
